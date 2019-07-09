@@ -32,3 +32,9 @@ Now say changes are made on the server repo on gitHub.
 To synch the changes to your local repo on you pc first run:
   git fetch origin master
 then: git merge origin/master
+
+alternatively you can run: git pull orign master
+which fetches and merges simulteneously.
+
+NB: use a "git pull origin master" if you know there are no
+conflicts other wisen it will fail.
