@@ -25,3 +25,10 @@ now after all these, go to GitHub and create a new repo.
 Just give it a name then copy the "linking url" after creating it.
 It should look something like this:
  git remote add origin https://github.com/u16220073/Narau.git
+
+then run: git push -u origin master.
+
+Now say changes are made on the server repo on gitHub.
+To synch the changes to your local repo on you pc first run:
+  git fetch origin master
+then: git merge origin/master
