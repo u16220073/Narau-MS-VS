@@ -20,3 +20,8 @@ you can run: git status
 
 you can also run: git log 
  to see the history of commits made
+
+now after all these, go to GitHub and create a new repo.
+Just give it a name then copy the "linking url" after creating it.
+It should look something like this:
+ git remote add origin https://github.com/u16220073/Narau.git
