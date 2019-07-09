@@ -7,4 +7,4 @@ then:
  
 to link my local repo with this repo here
 
-continue with lesson from: https://www.youtube.com/watch?v=c3482qAzZLQ
+continue with lesson from: https://www.youtube.com/watch?v=c3482qAzZLQ [15:08]
