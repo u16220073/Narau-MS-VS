@@ -1,0 +1,22 @@
+for a first time git user: run the ff cmd:
+first create a folder you will be working on then run the cmd in it
+run: git init
+then the ff steps
+
+#step 1:NB: this should be the email you used when registering for gitHub
+  git config --global user.email "<your email address>"
+#step 2:
+  git config --global user.name "<Your name>"
+
+after this you can start doing some work :)
+
+once you done run:
+  git add "<list of files you were working on>"
+then run: git commit -m "<some commit comment>"
+
+you can run: git status
+ at anytime to check where the file(s) you working on are committed, 
+ need to be commited, ready to be committed and etc.
+
+you can also run: git log 
+ to see the history of commits made
