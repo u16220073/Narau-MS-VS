@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 "#Narau"
 This is something github said I should do via :
 echo "#Narau" >> README.md
@@ -12,3 +13,6 @@ continue with lesson from: https://www.youtube.com/watch?v=c3482qAzZLQ [15:08]
 =======
 # Narau-part2
 >>>>>>> 797112bfbff556358c8563834c063dfa945f6203
+=======
+# Narau-part2b
+>>>>>>> aed3c053b3f4df049b4698f0344d09db9048b386
