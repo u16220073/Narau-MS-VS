@@ -38,3 +38,16 @@ which fetches and merges simulteneously.
 
 NB: use a "git pull origin master" if you know there are no
 conflicts other wisen it will fail.
+
+to break from one repo to another you use:
+  git remote remove origin
+then:
+  git remote add origin https://github.com/<username>/<new-repo-name>.git
+
+Let's say when you were creating your repl on GitHub you chose one
+with an initialized readme.md
+
+if that's the case then you won't be able to push or pull until
+you do the following
+first run: git pull origin master --allow-unrelated-histories
+then you can run: git push origin master
