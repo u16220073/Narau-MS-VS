@@ -1,0 +1,53 @@
+for a first time git user: run the ff cmd:
+first create a folder you will be working on then run the cmd in it
+run: git init
+then the ff steps
+
+#step 1:NB: this should be the email you used when registering for gitHub
+  git config --global user.email "<your email address>"
+#step 2:
+  git config --global user.name "<Your name>"
+
+after this you can start doing some work :)
+
+once you done run:
+  git add "<list of files you were working on>"
+then run: git commit -m "<some commit comment>"
+
+you can run: git status
+ at anytime to check where the file(s) you working on are committed, 
+ need to be commited, ready to be committed and etc.
+
+you can also run: git log 
+ to see the history of commits made
+
+now after all these, go to GitHub and create a new repo.
+Just give it a name then copy the "linking url" after creating it.
+It should look something like this:
+ git remote add origin https://github.com/u16220073/Narau.git
+
+then run: git push -u origin master.
+
+Now say changes are made on the server repo on gitHub.
+To synch the changes to your local repo on you pc first run:
+  git fetch origin master
+then: git merge origin/master
+
+alternatively you can run: git pull orign master
+which fetches and merges simulteneously.
+
+NB: use a "git pull origin master" if you know there are no
+conflicts other wisen it will fail.
+
+to break from one repo to another you use:
+  git remote remove origin
+then:
+  git remote add origin https://github.com/<username>/<new-repo-name>.git
+
+Let's say when you were creating your repl on GitHub you chose one
+with an initialized readme.md
+
+if that's the case then you won't be able to push or pull until
+you do the following
+first run: git pull origin master --allow-unrelated-histories
+then you can run: git push origin master
