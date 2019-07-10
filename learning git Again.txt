@@ -51,3 +51,7 @@ if that's the case then you won't be able to push or pull until
 you do the following
 first run: git pull origin master --allow-unrelated-histories
 then you can run: git push origin master
+
+alternatively you can clone the depo like this:
+  git clone https://github.com/<username>/<new-repo-name>.git
+then make all the changes you want then add, commit and push
